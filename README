@@ -1,0 +1,16 @@
+Mi-a facut placere sa lucrez la aceasta tema deoarece a fost ca o provocare pentru mine si consider ca mi-am dezvoltat abilitatile de a programa in C. Implementarea efectiva a temei a durat 4-5 zile in care am lucrat cate 3-4 ore pe zi. Din aceasta tema am invatat multe lucruri noi care ma vor ajuta pe viitor!
+
+Codul este alcatuit din 10 functii si main. Functiile secundare sunt:
+	- o functie care este folosita pentru initializarea grafului
+	- o functie care este folosita pentru a elibera memoria alocata
+	- o functie care este folosita pentru adaugarea unei muchii in graf
+	- o functie care este folosita pentru stergerea unei muchii din graf
+	- o functie care este folosita pentru afisarea matricii grafului
+	- o functie care este folosita pentru initializarea matricelor de drumuri si next hop
+	- o functie care este folosita pentru implementarea algoritmului lui Floyd pentru generarea matricelor de drumuri minime si next hop 
+	- o functie care este folosita pentru a genera drumul minim intre doua puncte date si care returneaza distanta dintre ele 
+	- o functie care este folosita la task-ul 2 pentru a gasi ferma prin care trebuie sa treaca drona astfel incat drumul de la un client la celalat sa fie minim
+	- o functie care este folosita pentru returnarea indicelui fermei cea mai apropiata de un punct de start
+	
+
+In main se realizeaza parsarea documentului de input si verificarea cerintei ce urmeaza a fi rezolvate, care este, mai apoi, transmis ca parametru functiilor care necesita cunoasterea acestuia. Apoi se aplica agloritmul lui Floyd si se genereaza si afiseaza in fisierul de output drumul minim, in functie de cerinta care trebuie rezolvata.
