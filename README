@@ -1,4 +1,23 @@
-Mi-a facut placere sa lucrez la aceasta tema deoarece a fost ca o provocare pentru mine si consider ca mi-am dezvoltat abilitatile de a programa in C. Implementarea efectiva a temei a durat 4-5 zile in care am lucrat cate 3-4 ore pe zi. Din aceasta tema am invatat multe lucruri noi care ma vor ajuta pe viitor!
+Tema a fost compusa din 3 taskuri si un bonus, avand la baza sa
+dezvoltarea conceptului de graf orientat, prin analogia cu drumurile parcurse
+de o drona in livrarea de produse.
+	Primul task a presupus ca exista o singura ferma de la care drona se
+putea aproviziona, aceasta fiind nevoita sa treaca pe la ferma inainte de orice
+livrare.
+	Taskul al doilea a fost asemanator cu primul, doar ca de data aceasta
+aveam mai multe ferme de la care drona se putea aproviziona, asa ca problema
+devenea in gasirea celei mai apropiate ferme pentru ca drona sa se aprovizioneze
+	Taskul trei a fost ceva mai complex. De data aceasta au existat mai
+multe ferme, fiecare ferma putand fi de alt tip, adica fiecare ferma detinea
+o anumita categorie de produse(1, 2, ...). Fiecare comanda data avea si un tip
+de produs, ceea ce insemna ca drona se putea aproviziona pentru o anumita
+comanda de la fermele care detineau produsele din aceasta categorie. Pe langa
+acest aspect, deoarece proprietarul a dorit o imbunatatire si mai mare a
+livrarilor, acesta a dorit ca drona sa livreze comenzile intr-o ordine in care
+se obtine maximul de eficienta, anume drumul minim parcurs de drona.
+	Fata de celelalte taskuri, unde am avut de a face doar cu o singura
+drona, pentru bonus am avut mai multe drone, fiecare operand pe o anumita zona
+a grafului orientat.
 
 Codul este alcatuit din 10 functii si main. Functiile secundare sunt:
 	- o functie care este folosita pentru initializarea grafului
